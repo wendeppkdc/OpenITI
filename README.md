@@ -1,2 +1,4 @@
-# OpenITI
-OpenITI Corpus Releases
+# OpenITI Corpus Releases
+
+1. The `working corpus` is split into *chronological repositories*, accommodating different calendars (for example, Hijrī for Islamic texts, Gregorian for modern text, Jewish ..., Coptic ..., Persian Šamsī ..., etc.). **NB:** Currently, only Hijrī chronological repositories are implemented (covering 25 years each, for example `0750AH` covers 726-750 AH), since only Arabic texts are in the corpus at the moment. Such organization reduces the size of individual repositories, making them easier to download and move around, as well as facititates editing, tagging, updating, etc..
+2. The `release corpus` include all texts from all *chronological repositories*, but dates here are all converted into the Gregorian calendar; an additional metadata file includes columns with URIs with the original and the CE dates. 
